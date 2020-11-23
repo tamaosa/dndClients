@@ -280,14 +280,6 @@
       "stylelint-config-prettier"
     ]
   },
-  "renovate": {
-    "extends": [
-      "bliss"
-    ],
-    "baseBranches": [
-      "next"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
