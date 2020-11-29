@@ -157,7 +157,7 @@
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/history": "4.7.7",
     "@types/jest": "26.0.15",
-    "@types/node": "12.12.54",
+    "@types/node": "12.12.70",
     "@types/react": "16.9.46",
     "@types/react-dom": "16.9.9",
     "@types/react-redux": "7.1.9",
