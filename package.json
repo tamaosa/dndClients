@@ -4,6 +4,7 @@
   "description": "Clients for TCP and serial communication that can create sequences with drag and drop.",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
+    "build-ci": "yarn postinstall && yarn build",
     "build-dll": "cross-env NODE_ENV=development webpack --config ./configs/webpack.config.renderer.dev.dll.babel.js --colors",
     "build-e2e": "cross-env E2E_BUILD=true yarn build",
     "build-main": "cross-env NODE_ENV=production webpack --config ./configs/webpack.config.main.prod.babel.js --colors",
@@ -81,7 +82,7 @@
       "provider": "github",
       "owner": "tamaosa",
       "repo": "dndClients",
-      "private": false
+      "releaseType": "release"
     }
   },
   "repository": {
